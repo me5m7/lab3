@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.link-container {
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.green {
+    background-color: #b3ffb3; /* Light Green */
+}
+
+.gray {
+    background-color: #555; /* Dark Gray */
+}
+
+.black {
+    background-color: #000; /* Black */
+}
+
+.link {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color: white;
+}
+
+/* Link hover effects */
+.link:hover {
+    text-decoration: underline;
+}
+
+.title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.links-container {
+    display: block;
+    padding: 10px;
+}
+
+.custom-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px auto;
+    width: 200px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* تأثيرات الروابط */
+.custom-link:visited {
+    color: #ff5733;
+}
+
+.custom-link:hover {
+    background-color: #0056b3;
+}
+
+.custom-link:active {
+    background-color: #ff0000;
+}
+.header-title {
+    font-size: 24px;
+    text-align: center;
+    color: #444;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+}
